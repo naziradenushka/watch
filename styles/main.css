@@ -627,6 +627,7 @@ a.href-hover-dark:hover, a.href-hover-dark:focus {
         background-color: var(--White);
         left: -5px;
         top: calc(100% + 5px);
+        z-index: 1;
 }
 .dropdown__list a {
             display: -webkit-box;
@@ -1393,6 +1394,7 @@ ul.footer__contacts {
                 background-color: #ffffff;
                 background-color: var(--White);
                 padding: 15px;
+                z-index: 1;
             }
                 .header__bottom nav ul {
                     display: block;
