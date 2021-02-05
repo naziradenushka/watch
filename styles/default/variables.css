@@ -1,0 +1,26 @@
+:root {
+    --mainColor: #323232;
+    --mainFont: "Montserrat", sans-serif;
+    --fontSize: 18px;
+    --titleColor: #373737;
+    --White: #ffffff;
+    --darkWhite: #f1f1f1;
+    --footerText: #646464;
+    --bodyBg: #f5f5f5;
+    --itemBg: #e1e1e1;
+    --borderColor: #e7e7e7;
+    --Red: #ff0000;
+    --Grey: #a0a0a0;
+    --contactsColor: #a3a3a3;
+    --lineColor: #5f5f5f;
+    --tagColor: #565656;
+    --borderRadius: 8px;
+    --currentPage: #888888;
+    --reviewColor: #727272;
+}
+@media(max-width: 767px) {
+    :root {
+        --fontSize: 15px;
+    }
+}
+/*# sourceMappingURL=../../maps/styles/default/variables.css.map */
