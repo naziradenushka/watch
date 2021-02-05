@@ -1,0 +1,87 @@
+.header__top-inner, .header__bottom-inner {
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+        }
+    .header__top {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        border-bottom: 1px solid var(--borderColor);
+        border-bottom: 1px solid var(--borderColor);
+        padding: 17px 35px;
+    }
+    .header__top-inner > div {
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+}
+    .header__top-inner .dropdown, .header__top-inner > .flexRow {
+                width: 70.3px;
+}
+    .header__bottom {
+        padding: 21px 35px 19px;
+        border-bottom: 1px solid var(--borderColor);
+        border-bottom: 1px solid var(--borderColor);
+    }
+    .header__bottom li {
+            margin-right: 50px;
+        }
+    .header__bottom-menu {
+            display: none;
+        }
+    .header__logo {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    }
+    @media(max-width: 900px) {
+        .header__top, .header__bottom {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .header__bottom {
+            position: relative;
+        }
+            .header__bottom-menu {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                font-size: 18px;
+            }
+            .header__bottom nav {
+                display: none;
+                position: absolute;
+                top: calc(100% - 5px);
+                left: 15px;
+                background-color: var(--White);
+                background-color: var(--White);
+                padding: 15px;
+            }
+                .header__bottom nav ul {
+                    display: block;
+                }
+                .header__bottom nav li {
+                    margin: 0 0 15px
+                }
+                .header__bottom nav li:last-child {
+                        margin: 0;
+            }
+}
+    @media(max-width: 450px) {
+        .header__top, .header__bottom {
+            padding: 12px 0;
+        }
+        .header__logo {
+            margin-left: -15px;
+        }
+            .header__logo img {
+                width: 160px;
+            }
+}
+/*# sourceMappingURL=../../../maps/templates/blocks/header/header.css.map */
