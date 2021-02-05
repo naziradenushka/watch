@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Watch-Python</title>
+
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+
+<link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon">
+
+
+    <!-- Стили общие для всего сайта - Начало -->
+    
+    <link rel="stylesheet" href="vendors/swiper/swiper.min.css">
+    
+    <link rel="stylesheet" href="vendors/fancybox/jquery.fancybox.min.css">
+    
+    <link rel="stylesheet" href="vendors/rateyo/jquery.rateyo.min.css">
+    
+    
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Стили общие для всего сайта - Конец -->
+    <!-- Стили на этой странице - Начало -->
+    
+    <!-- Стили на этой странице - Конец -->
+</head>
+
+<body>
+    <div class="body__inner">
+        <header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-inner flexRow">
+                <div class="dropdown">
+                    <div class="href-hover flexRow dropdown__current">
+                        <div class="dropdown__img" style="background: url(assets/images/russian_flag.png) 0 0 / cover no-repeat;"></div>
+                        <span>RU</span>
+                    </div>
+                    <ul class="dropdown__list">
+                        <li><a class="href-hover" href="#"><img src="assets/images/russian_flag.png" alt=""><span>RU</span></a></li>
+                        <li><a class="href-hover" href="#"><img src="assets/images/english_flag.jpg" alt=""><span>EN</span></a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="header__logo"><img src="../assets/images/logo.svg" alt=""></a>
+                <div class="flexRow">
+                    <div class="search">
+                        <input type="text" placeholder="Найти...">
+                        <button><i class="icon-1-0_search"></i></button>
+                    </div>
+                    <button class="btn-login"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__bottom-inner flexRow">
+                <button class="header__bottom-menu"><i class="icon-1-8_menu"></i></button>
+                <nav>
+                    <ul class="flexRow">
+                        <li><a href="#" class="href-hover">Часы</a></li>
+                        <li><a href="#" class="href-hover">Кольца</a></li>
+                        <li><a href="#" class="href-hover">Серьги</a></li>
+                        <li><a href="#" class="href-hover">Браслеты</a></li>
+                        <li><a href="#" class="href-hover">Клатчи</a></li>
+                        <li><a href="#" class="href-hover">Цепочки</a></li>
+                    </ul>
+                </nav>
+                <div class="action-pages">
+                    <a href="#" class="action-href heart">
+                        <i class="icon-1-2_heart"></i>
+                        <span class="quantity">100</span>
+                    </a>
+                    <a href="#" class="action-href basket">
+                        <i class="icon-1-1_basket"></i>
+                        <span class="quantity">100</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner flexRow marginIndents">
+                    <div class="banner__inner-left">
+                        <div class="banner__item flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">50%</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn heart">
+                                        <input type="checkbox" id="heart_banner01">
+                                        <label for="heart_banner01"><i class="icon-1-2_heart"></i></label>
+                                    </button>
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket_banner01">
+                                        <label for="basket_banner01"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <div class="item__left">
+                                    <div class="item__img" style="background-image: url(assets/images/banner01.png);">
+                                    </div>
+                                </div>
+                                <div class="item__right">
+                                    <a href="#" class="title-h3">
+                                        <span>Наручные часы</span>
+                                        Fantastic Style
+                                    </a>
+                                    <p class="item__price">1 128 000 UZS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__item banner__item-reverse flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">50%</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn heart">
+                                        <input type="checkbox" id="heart_banner02">
+                                        <label for="heart_banner02"><i class="icon-1-2_heart"></i></label>
+                                    </button>
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket_banner02">
+                                        <label for="basket_banner02"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <div class="item__left">
+                                    <div class="item__img" style="background-image: url(assets/images/banner02.png);"></div>
+                                </div>
+                                <div class="item__right">
+                                    <a href="#" class="title-h3">
+                                        <span>Кожанный браслет</span>
+                                        Everiot
+                                    </a>
+                                    <p class="item__price">150 000 UZS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner__inner-right">
+                        <div class="banner__item banner__item-big flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">50%</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn heart">
+                                        <input type="checkbox" id="heart_banner03">
+                                        <label for="heart_banner03"><i class="icon-1-2_heart"></i></label>
+                                    </button>
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket_banner03">
+                                        <label for="basket_banner03"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <div class="item__left">
+                                    <div class="item__img" style="background-image: url(assets/images/banner03.png);"></div>
+                                </div>
+                                <div class="item__right">
+                                    <a href="#" class="title-h1">
+                                        <span>Черная мужская серьга</span>
+                                        DIADEMA GRAND
+                                    </a>
+                                    <p class="item__price">95 000 UZS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="leader-sells">
+            <div class="container">
+                <h2 class="title-h2">Лидеры продаж</h2>
+                <div class="leader-sells__inner flexRow marginIndents flexWrap">
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">15%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart01">
+                                    <label for="heart01"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket01">
+                                    <label for="basket01"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item01.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">CURREN 8250</a>
+                            </div>
+                            <p class="item__price">8 150 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">new</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart02">
+                                    <label for="heart02"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket02">
+                                    <label for="basket02"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item02.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">TISSOT 1853</a>
+                            </div>
+                            <p class="item__price">2 150 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">new</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart03">
+                                    <label for="heart03"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket03">
+                                    <label for="basket03"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item03.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">LVPAI</a>
+                            </div>
+                            <p class="item__price">950 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart04">
+                                    <label for="heart04"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket04">
+                                    <label for="basket04"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item04.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">COBRA</a>
+                            </div>
+                            <p class="item__price">70 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">10%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart05">
+                                    <label for="heart05"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket05">
+                                    <label for="basket05"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item05.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">ПОВЕЛИТЕЛЬ ЗМЕЙ</a>
+                            </div>
+                            <p class="item__price">275 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart06">
+                                    <label for="heart06"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket06">
+                                    <label for="basket06"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item06.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">EWA 1703</a>
+                            </div>
+                            <p class="item__price">85 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">50%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart07">
+                                    <label for="heart07"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket07">
+                                    <label for="basket07"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item07.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">EWA 1703</a>
+                            </div>
+                            <p class="item__price">85 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">new</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart08">
+                                    <label for="heart08"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket08">
+                                    <label for="basket08"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item08.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">CASIO QUARTZ</a>
+                            </div>
+                            <p class="item__price">750 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">50%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart09">
+                                    <label for="heart09"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket09">
+                                    <label for="basket09"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item09.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">SKAGEN 233</a>
+                            </div>
+                            <p class="item__price">3 250 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">50%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart10">
+                                    <label for="heart10"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket10">
+                                    <label for="basket10"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item10.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">EVERIOT</a>
+                            </div>
+                            <p class="item__price">150 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">50%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart11">
+                                    <label for="heart11"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket11">
+                                    <label for="basket11"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item11.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">KADEMAN ARMY</a>
+                            </div>
+                            <p class="item__price">1 000 000 UZS</p>
+                        </div>
+                    </div>
+                    <div class="item flexCell">
+                        <div class="item__inner">
+                            <span class="item__tag">70%</span>
+                            <div class="item__action">
+                                <button class="item__action-btn heart">
+                                    <input type="checkbox" id="heart12">
+                                    <label for="heart12"><i class="icon-1-2_heart"></i></label>
+                                </button>
+                                <button class="item__action-btn basket">
+                                    <input type="checkbox" id="basket12">
+                                    <label for="basket12"><i class="icon-1-1_basket"></i></label>
+                                </button>
+                            </div>
+                            <div class="item__top">
+                                <div class="item__img">
+                                    <img src="assets/images/item12.png" alt="">
+                                </div>
+                                <a href="#" class="title-h3">THE KING</a>
+                            </div>
+                            <p class="item__price">200 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-more">Ещё</button>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 class="title-h2">Последние новости</h2>
+                <div class="news__inner flexRow marginIndents">
+                    <div class="news__inner-item flexCell">
+                        <div class="news__item news__item-100">
+                            <span class="item__tag-light">Советы</span>
+                            <div class="news__item-bg" style="background-image: url(assets/images/news01.jpg);"></div>
+                            <div class="typography">
+                                <h3><a href="#">Как выбрать первые японские часы – советы эксперта</a></h3>
+                                <p>Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым производством. 1500 из них имеют в своем названии слово Seiko, 700 – Citizen, остальное, грубо говоря, относится к Casio и паре ...</p>
+                            </div>
+                            <time datetime="2020-04-19 17:30">
+                                <i class="icon-1-3_clock"></i>
+                                <span>19.04.2020 | 17:30</span>
+                            </time>
+                        </div>
+                        <div class="flexRow marginIndents">
+                            <div class="news__item-50 flexCell">
+                                <div class="news__item">
+                                    <span class="item__tag-light">Советы</span>
+                                    <div class="news__item-bg" style="background-image: url(assets/images/news02.jpg);"></div>
+                                    <div class="typography">
+                                        <h3><a href="#">Что такое вечный календарь и как он работает?</a></h3>
+                                        <p>Часовщики народ крайне конкретный и точный не только в своих манипуляциях, но и в мыслях и особенно терминах. Тем удивительнее, что ...</p>
+                                    </div>
+                                    <time datetime="2020-04-14 14:16">
+                                        <i class="icon-1-3_clock"></i>
+                                        <span>14.04.2020 | 14:16</span>
+                                    </time>
+                                </div>
+                            </div>
+                            <div class="news__item-50 flexCell">
+                                <div class="news__item">
+                                    <span class="item__tag-light">Советы</span>
+                                    <div class="news__item-bg" style="background-image: url(assets/images/news03.jpg);"></div>
+                                    <div class="typography">
+                                        <h3><a href="#">Лучшие механические часы: выбор эксперта</a></h3>
+                                        <p>Мечтаете носить мануфактурную механику, но пока не можете позволить себе подобную роскошь? Не стоит расстраиваться! ...</p>
+                                    </div>
+                                    <time datetime="2020-04-12 14:16">
+                                        <i class="icon-1-3_clock"></i>
+                                        <span>12.04.2020 | 14:16</span>
+                                    </time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__inner-item flexCell">
+                        <div class="flexRow marginIndents">
+                            <div class="news__item-50 flexCell">
+                                <div class="news__item">
+                                    <span class="item__tag-light">Обзоры</span>
+                                    <div class="news__item-bg" style="background-image: url(assets/images/news04.jpg);"></div>
+                                    <div class="typography">
+                                        <h3><a href="#">новая версия культовых дайверских часов</a></h3>
+                                        <p>В 2020 году историческая модель Seiko Prospex Diver отмечает свое 55-летие. Часы 62MAS оказали ...</p>
+                                    </div>
+                                    <time datetime="2020-04-18 14:16">
+                                        <i class="icon-1-3_clock"></i>
+                                        <span>18.04.2020 | 14:16</span>
+                                    </time>
+                                </div>
+                            </div>
+                            <div class="news__item-50 flexCell">
+                                <div class="news__item">
+                                    <span class="item__tag-light">Советы</span>
+                                    <div class="news__item-bg" style="background-image: url(assets/images/news05.jpg);"></div>
+                                    <div class="typography">
+                                        <h3><a href="#">Как определить характер по цвету циферблата?</a></h3>
+                                        <p>Современные часовые компании мира используют 270 цветов и оттенков для окраски циферблатов. Какой из них ...</p>
+                                    </div>
+                                    <time datetime="2020-04-16 14:16">
+                                        <i class="icon-1-3_clock"></i>
+                                        <span>16.04.2020 | 14:16</span>
+                                    </time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item news__item-100">
+                            <span class="item__tag-light">Обзоры</span>
+                            <div class="news__item-bg" style="background-image: url(assets/images/news06.jpg);"></div>
+                            <div class="typography">
+                                <h3><a href="#">какие часы выбирают студенты</a></h3>
+                                <p>В канун главного студенческого праздника мы поговорили с учащимися одного из столичных вузов о том, какие бренды и модели они предпочитают, на что обращают внимание при выборе, и дороже какой суммы не готовы потратить на часы. А для того, чтобы эксперимент ...</p>
+                            </div>
+                            <time datetime="2020-04-18 14:16">
+                                <i class="icon-1-3_clock"></i>
+                                <span>18.04.2020 | 14:16</span>
+                            </time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner flexRow">
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Товары</a>
+                <ul>
+                    <li>
+                        <a href="#" class="href-hover">Часы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Кольца</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Серьги</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Браслеты</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Клатчи</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Цепочки</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Покупателям</a>
+                <ul>
+                    <li>
+                        <a href="#" class="href-hover">Скидки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Частые вопросы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Гарантия</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Возврат</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Контакты</a>
+                <ul class="footer__contacts">
+                    <li><span>Ул. Аския, Яккасарайский район, Ташкент, Узбекистан</span></li>
+                    <li class="footer__contacts-phone">
+                        <a href="tel:998977425414" class="href-hover-dark">+998 97 742 54 14</a>
+                        <a href="tel:998977525632" class="href-hover-dark">+998 97 752 56 32</a>
+                    </li>
+                    <li><a href="mailto:totembo@exapmle.com" class="href-hover-dark">totembo@exapmle.com</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="#" class="title-h4 href-hover">Социальные сети</a>
+                    <ul class="flexRow">
+                        <li><a href="#" class="href-hover"><i class="icon-1-4_vk"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-5_youtube"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-6_instagram"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-7_facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <!-- Скрипты общие для всего сайта - Начало -->
+    
+    <script src="vendors/jquery/jquery.min.js"></script>
+    
+    
+    <script src="vendors/swiper/swiper.min.js"></script>
+    
+    <script src="vendors/fancybox/jquery.fancybox.min.js"></script>
+    
+    <script src="vendors/rateyo/jquery.rateyo.min.js"></script>
+    
+    
+    <script src="scripts/main.js"></script>
+    
+    <!-- Скрипты общие для всего сайта - Конец -->
+    <!-- Скрипты на этой странице - Начало -->
+    
+    <!-- Скрипты на этой странице - Конец -->
+</body>
+
+</html>
