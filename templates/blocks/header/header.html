@@ -18,7 +18,7 @@
                         <input type="text" placeholder="Найти...">
                         <button><i class="icon-1-0_search"></i></button>
                     </div>
-                    <button class="btn-login"></button>
+                    <button class="btn-login"><i class="icon-1-9_login"></i></button>
                 </div>
             </div>
         </div>
@@ -38,11 +38,11 @@
                     </ul>
                 </nav>
                 <div class="action-pages">
-                    <a href="#" class="action-href heart">
+                    <a href="favorites.html" class="action-href heart">
                         <i class="icon-1-2_heart"></i>
                         <span class="quantity">100</span>
                     </a>
-                    <a href="#" class="action-href basket">
+                    <a href="basket.html" class="action-href basket">
                         <i class="icon-1-1_basket"></i>
                         <span class="quantity">100</span>
                     </a>
@@ -51,3 +51,30 @@
         </div>
     </div>
 </header>
+
+<div class="modal" id="logIn">
+    <form action="#">
+        <div class="modal__inner">
+            <div class="top">
+                <h2 class="section-title">Вход в личный кабинет</h2>
+                <p class="alert">Неправильно введен логин или пароль</p>
+            </div>
+            <div class="body">
+                <div class="input-list">
+                    <label class="input-wrap">
+                        <span class="input-name">Логин*</span>
+                        <input type="text" class="input">
+                    </label>
+                    <label class="input-wrap">
+                        <span class="input-name">Пароль*</span>
+                        <input type="password" class="input error">
+                    </label>
+                </div>
+                <div class="modal__inner-action">
+                    <button type="button" class="btn-bg">войти</button>
+                    <a class="btn-more" href="#">Зарегистрироваться</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

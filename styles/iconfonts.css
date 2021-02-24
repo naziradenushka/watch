@@ -53,4 +53,8 @@
 .icon-1-8_menu::before {
 	content: "\E009";
 }
+
+.icon-1-9_login::before {
+	content: "\E00A";
+}
 /*# sourceMappingURL=../maps/styles/iconfonts.css.map */

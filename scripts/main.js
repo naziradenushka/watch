@@ -39,5 +39,12 @@ $(document).ready(function(){
             "starSvg": '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.0002 0.200195L14.6002 7.4002L21.8002 8.30019L16.8562 13.8442L18.2002 21.8002L11.0002 18.2002L3.8002 21.8002L5.1562 13.8442L0.200195 8.30019L7.4002 7.4002L11.0002 0.200195Z" fill=0"/></svg>'
         });
     }
+    /* войти/регистрация и забыли пароль */
+    $(document).on('click', '.btn-login', function(){
+        var logIn =  $.fancybox.open({
+            src: '#logIn',
+            type: 'inline',
+        });
+    });
 });
 //# sourceMappingURL=../maps/scripts/main.js.map

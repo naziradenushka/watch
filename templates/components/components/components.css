@@ -107,6 +107,156 @@ div.social-media i {
     padding: 0;
 }
 
+.fancybox-bg{
+    background: rgba(0, 0, 0, .7);
+}
+.fancybox-slide--html{
+    padding: 10px 0;
+}
+.fancybox-button.fancybox-close-small{
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    right: 22px;
+    top: 22px;
+}
+.fancybox-content{
+    padding: 0;
+    font-family: var(--mainFont);
+    font-family: var(--mainFont);
+}
+.fancybox-can-pan .fancybox-content, .fancybox-can-swipe .fancybox-content{
+    cursor: auto;
+}
+.modal{
+    background-color: var(--White);
+    background-color: var(--White);
+    border-radius: 10px;
+}
+.modal__inner {
+        padding: 55px 60px;
+    }
+.modal__inner .section-title {
+            margin: 0 0 20px;
+            text-align: left;
+        }
+.modal__inner p {
+            font-size: 13px;
+            line-height: 1.4;
+        }
+.modal__inner .alert {
+            margin: 0 0 30px;
+            font-size: 13px;
+        }
+.modal__inner .input {
+            height: 40px;
+            border-radius: 15px;
+            padding: 5px 10px;
+            border: 1px solid var(--Grey);
+            border: 1px solid var(--Grey);
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1;
+        }
+.modal__inner .input-wrap {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+.modal__inner .input-name {
+                width: 90px;
+            }
+.modal__inner .input:focus {
+        outline: none;
+}
+.modal__inner .input-list {
+                margin-bottom: 25px;
+}
+.modal__inner .btn-more {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            font-size: 17px;
+            text-decoration: none
+        }
+.modal__inner .btn-more::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--mainColor);
+        background-color: var(--mainColor);
+        position: absolute;
+        left: 0;
+        top: 100%;
+}
+.modal__inner .btn-bg {
+            padding: 15px 30px;
+        }
+.modal__inner-action {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin-top: 25px;
+        }
+#logIn {
+    width: 490px;
+    display: none;
+}
+@media(max-width: 600px){
+    .fancybox-button.fancybox-close-small {
+        right: 8px;
+        top: 8px;
+    }
+    #logIn {
+        width: 290px;
+    }
+        #logIn .input-list {
+            margin-bottom: 15px;
+        }
+        .modal__inner {
+            padding: 25px 20px 30px;
+        }
+            .modal__inner .section-title {
+                margin-bottom: 10px;
+            }
+                 .modal__inner .top p {
+                     margin-bottom: 20px;
+                 }
+            .modal__inner .bottom {
+                margin-top: 10px;
+                padding-top: 0;
+            }
+                .modal__inner .input-wrap {
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                }
+                .modal__inner .input-name {
+                    margin-bottom: 10px;
+                }
+            .modal__inner .btn-bg {
+                width: 100%;
+                text-align: center;
+            }
+            .modal__inner .btn-more {
+                margin: 20px auto 0;
+            }
+            .modal__inner-action {
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+            }
+}
 @media(max-width: 450px) {
         .dropdown__img, .dropdown img {
             margin-right: 6px;
