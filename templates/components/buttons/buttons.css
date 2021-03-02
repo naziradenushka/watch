@@ -1,4 +1,4 @@
-.btn-bg, .action-href, .href-hover, .btn-login, .search button, .header__bottom-menu, .item__action-btn, .btn-more, .btn-review {
+.btn-bg, .action-href, .href-hover, .btn-login, .search button, .header__bottom-menu, .item__action-btn, .btn-more, .btn-review, .btn-delete {
     background: none;
     border: none;
     padding: 0;
@@ -11,7 +11,7 @@
     -o-transition: .2s;
     transition: .2s
 }
-.btn-bg:focus, .action-href:focus, .href-hover:focus, .btn-login:focus, .search button:focus, .header__bottom-menu:focus, .item__action-btn:focus, .btn-more:focus, .btn-review:focus {
+.btn-bg:focus, .action-href:focus, .href-hover:focus, .btn-login:focus, .search button:focus, .header__bottom-menu:focus, .item__action-btn:focus, .btn-more:focus, .btn-review:focus, .btn-delete:focus {
     outline: none;
 }
 .action-href {
@@ -147,11 +147,27 @@ a.href-hover-dark:hover, a.href-hover-dark:focus {
     color: var(--mainColor);
     color: var(--mainColor);
 }
+
+.btn-delete {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+}
+
+@media(max-width: 1600px) {
+    .btn-delete {
+        top: 20px;
+        right: 20px;
+    }
+}
+
 @media(max-width: 500px) {
     .btn-bg {
         padding: 17px 60px;
     }
 }
+
 @media(max-width: 450px) {
     .btn-login {
         margin-left: 20px

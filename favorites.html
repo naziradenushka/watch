@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>TOTEMBO</title>
+
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+
+<link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon">
+
+
+    <!-- Стили общие для всего сайта - Начало -->
+    
+    <link rel="stylesheet" href="vendors/swiper/swiper.min.css">
+    
+    <link rel="stylesheet" href="vendors/fancybox/jquery.fancybox.min.css">
+    
+    <link rel="stylesheet" href="vendors/rateyo/jquery.rateyo.min.css">
+    
+    
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Стили общие для всего сайта - Конец -->
+    <!-- Стили на этой странице - Начало -->
+    
+    <!-- Стили на этой странице - Конец -->
+</head>
+
+<body>
+    <div class="body__inner">
+        <header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-inner flexRow">
+                <div class="dropdown">
+                    <div class="href-hover flexRow dropdown__current">
+                        <div class="dropdown__img" style="background: url(assets/images/russian_flag.png) 0 0 / cover no-repeat;"></div>
+                        <span>RU</span>
+                    </div>
+                    <ul class="dropdown__list">
+                        <li><a class="href-hover" href="#"><img src="assets/images/russian_flag.png" alt=""><span>RU</span></a></li>
+                        <li><a class="href-hover" href="#"><img src="assets/images/english_flag.jpg" alt=""><span>EN</span></a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="header__logo"><img src="assets/images/logo.svg" alt=""></a>
+                <div class="flexRow">
+                    <div class="search">
+                        <input type="text" placeholder="Найти...">
+                        <button><i class="icon-1-0_search"></i></button>
+                    </div>
+                    <button class="btn-login"><i class="icon-1-9_login"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__bottom-inner flexRow">
+                <button class="header__bottom-menu"><i class="icon-1-8_menu"></i></button>
+                <nav>
+                    <ul class="flexRow">
+                        <li><a href="#" class="href-hover">Часы</a></li>
+                        <li><a href="#" class="href-hover">Кольца</a></li>
+                        <li><a href="#" class="href-hover">Серьги</a></li>
+                        <li><a href="#" class="href-hover">Браслеты</a></li>
+                        <li><a href="#" class="href-hover">Клатчи</a></li>
+                        <li><a href="#" class="href-hover">Цепочки</a></li>
+                    </ul>
+                </nav>
+                <div class="action-pages">
+                    <a href="favorites.html" class="action-href heart">
+                        <i class="icon-1-2_heart"></i>
+                        <span class="quantity">100</span>
+                    </a>
+                    <a href="basket.html" class="action-href basket">
+                        <i class="icon-1-1_basket"></i>
+                        <span class="quantity">100</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="modal" id="logIn">
+    <form action="#">
+        <div class="modal__inner">
+            <div class="top">
+                <h2 class="section-title">Вход в личный кабинет</h2>
+                <p class="alert">Неправильно введен логин или пароль</p>
+            </div>
+            <div class="body">
+                <div class="input-list">
+                    <label class="input-wrap">
+                        <span class="input-name">Логин*</span>
+                        <input type="text" class="input">
+                    </label>
+                    <label class="input-wrap">
+                        <span class="input-name">Пароль*</span>
+                        <input type="password" class="input error">
+                    </label>
+                </div>
+                <div class="modal__inner-action">
+                    <button type="button" class="btn-bg">войти</button>
+                    <a class="btn-more" href="#">Зарегистрироваться</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        
+    <main>
+        <div class="breadcrumbs-section">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <div><a href="index.html">Главная страница</a></div>
+                    <div><span>Избранное</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="basket">
+            <div class="leader-sells">
+                <div class="container">
+                    <div class="leader-sells__inner flexRow marginIndents flexWrap">
+                        <div class="item flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">15%</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket01">
+                                        <label for="basket01"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <button class="btn-delete"><i class="icon-2_0_close"></i></button>
+                                <div class="item__top">
+                                    <div class="item__img">
+                                        <img src="assets/images/card-other01.png" alt="">
+                                    </div>
+                                    <a href="#" class="title-h3">RAYMOND WEIL MAESTRO</a>
+                                </div>
+                                <p class="item__price">2 150 000 UZS</p>
+                            </div>
+                        </div>
+                        <div class="item flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">new</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket01">
+                                        <label for="basket01"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <button class="btn-delete"><i class="icon-2_0_close"></i></button>
+                                <div class="item__top">
+                                    <div class="item__img">
+                                        <img src="assets/images/card-other02.png" alt="">
+                                    </div>
+                                    <a href="#" class="title-h3">RAYMOND WEIL 8560</a>
+                                </div>
+                                <p class="item__price">2 150 000 UZS</p>
+                            </div>
+                        </div>
+                        <div class="item flexCell">
+                            <div class="item__inner">
+                                <span class="item__tag">new</span>
+                                <div class="item__action">
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket01">
+                                        <label for="basket01"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <button class="btn-delete"><i class="icon-2_0_close"></i></button>
+                                <div class="item__top">
+                                    <div class="item__img">
+                                        <img src="assets/images/card-other03.png" alt="">
+                                    </div>
+                                    <a href="#" class="title-h3">RAYMOND WEIL 9525</a>
+                                </div>
+                                <p class="item__price">3 950 000 UZS</p>
+                            </div>
+                        </div>
+                        <div class="item flexCell">
+                            <div class="item__inner">
+                                <div class="item__action">
+                                    <button class="item__action-btn basket">
+                                        <input type="checkbox" id="basket01">
+                                        <label for="basket01"><i class="icon-1-1_basket"></i></label>
+                                    </button>
+                                </div>
+                                <button class="btn-delete"><i class="icon-2_0_close"></i></button>
+                                <div class="item__top">
+                                    <div class="item__img">
+                                        <img src="assets/images/card-other04.png" alt="">
+                                    </div>
+                                    <a href="#" class="title-h3">RAYMOND WEIL BEZEL</a>
+                                </div>
+                                <p class="item__price">500 000 UZS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner flexRow">
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Товары</a>
+                <ul>
+                    <li>
+                        <a href="#" class="href-hover">Часы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Кольца</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Серьги</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Браслеты</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Клатчи</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Цепочки</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Покупателям</a>
+                <ul>
+                    <li>
+                        <a href="#" class="href-hover">Скидки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Частые вопросы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Гарантия</a>
+                    </li>
+                    <li>
+                        <a href="#" class="href-hover">Возврат</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flexCell">
+                <a href="#" class="title-h4 href-hover">Контакты</a>
+                <ul class="footer__contacts">
+                    <li><span>Ул. Аския, Яккасарайский район, Ташкент, Узбекистан</span></li>
+                    <li class="footer__contacts-phone">
+                        <a href="tel:998977425414" class="href-hover-dark">+998 97 742 54 14</a>
+                        <a href="tel:998977525632" class="href-hover-dark">+998 97 752 56 32</a>
+                    </li>
+                    <li><a href="mailto:totembo@exapmle.com" class="href-hover-dark">totembo@exapmle.com</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="#" class="title-h4 href-hover">Социальные сети</a>
+                    <ul class="flexRow">
+                        <li><a href="#" class="href-hover"><i class="icon-1-4_vk"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-5_youtube"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-6_instagram"></i></a></li>
+                        <li><a href="#" class="href-hover"><i class="icon-1-7_facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <!-- Скрипты общие для всего сайта - Начало -->
+    
+    <script src="vendors/jquery/jquery.min.js"></script>
+    
+    
+    <script src="vendors/swiper/swiper.min.js"></script>
+    
+    <script src="vendors/fancybox/jquery.fancybox.min.js"></script>
+    
+    <script src="vendors/rateyo/jquery.rateyo.min.js"></script>
+    
+    
+    <script src="scripts/main.js"></script>
+    
+    <!-- Скрипты общие для всего сайта - Конец -->
+    <!-- Скрипты на этой странице - Начало -->
+    
+    <!-- Скрипты на этой странице - Конец -->
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.basket .item__action {
+        top: auto;
+        bottom: 30px;
+        left: 30px;
+    }
+@media(max-width: 1600px) {
+        .basket .item__action {
+            bottom: 20px;
+            left: 20px;
+        }
+}
+/*# sourceMappingURL=../../../maps/templates/blocks/basket/basket.css.map */
