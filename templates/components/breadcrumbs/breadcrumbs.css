@@ -31,4 +31,7 @@
         color: var(--currentPage);
         color: var(--currentPage);
     }
+    .breadcrumbs-section h1 {
+            text-align: left;
+        }
 /*# sourceMappingURL=../../../maps/templates/components/breadcrumbs/breadcrumbs.css.map */

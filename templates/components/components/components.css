@@ -214,6 +214,9 @@ div.social-media i {
     width: 490px;
     display: none;
 }
+.content-page {
+    padding: 60px 0;
+}
 @media(max-width: 600px){
     .fancybox-button.fancybox-close-small {
         right: 8px;

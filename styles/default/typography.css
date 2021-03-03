@@ -30,6 +30,9 @@
     .typography h4 {
         font-size: 18px;
     }
+    .typography h5, .typography h6 {
+        font-size: 16px;
+    }
     .typography a {
         display: inline-block;
         text-decoration: none;
@@ -67,7 +70,8 @@
     .typography blockquote {
         position: relative;
         margin: 30px 0;
-        background-color: #f8f9fb;
+        background-color: var(--White);
+        background-color: var(--White);
         padding: 35px 25px 35px 53px
     }
     .typography blockquote::after {
@@ -164,6 +168,10 @@
     }
     .typography td:first-child, .typography th:first-child {
         width: 466px;
+    }
+    .typography img {
+        width: 100%;
+        margin: 10px 0;
     }
     @media(max-width: 767px) {
         .typography th, .typography td {

@@ -150,14 +150,14 @@ a.href-hover-dark:hover, a.href-hover-dark:focus {
 
 .btn-delete {
     position: absolute;
-    top: 30px;
+    top: 31px;
     right: 30px;
     z-index: 2;
 }
 
 @media(max-width: 1600px) {
     .btn-delete {
-        top: 20px;
+        top: 21px;
         right: 20px;
     }
 }

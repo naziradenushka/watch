@@ -178,6 +178,9 @@ body {
 .typography h4 {
         font-size: 18px;
     }
+.typography h5, .typography h6 {
+        font-size: 16px;
+    }
 .typography a {
         display: inline-block;
         text-decoration: none;
@@ -215,7 +218,8 @@ body {
 .typography blockquote {
         position: relative;
         margin: 30px 0;
-        background-color: #f8f9fb;
+        background-color: #ffffff;
+        background-color: var(--White);
         padding: 35px 25px 35px 53px
     }
 .typography blockquote::after {
@@ -312,6 +316,10 @@ body {
     }
 .typography td:first-child, .typography th:first-child {
         width: 466px;
+    }
+.typography img {
+        width: 100%;
+        margin: 10px 0;
     }
 @font-face {
 	font-family: "Montserrat";
@@ -594,6 +602,9 @@ a.href-hover-dark:hover, a.href-hover-dark:focus {
         color: #888888;
         color: var(--currentPage);
     }
+.breadcrumbs-section h1 {
+            text-align: left;
+        }
 .action-pages {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -797,6 +808,9 @@ div.social-media i {
 #logIn {
     width: 490px;
     display: none;
+}
+.content-page {
+    padding: 60px 0;
 }
 
 /* Blocks */
